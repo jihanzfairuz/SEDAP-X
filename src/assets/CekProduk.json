@@ -1,0 +1,17 @@
+[
+  { "kode_produk": "a1", "nama_produk": "N T A K U N T I", "harga": 5000000000, "stok": 12 },
+  { "kode_produk": "a2", "nama_produk": "Bayam Hijau", "harga": 3000, "stok": 8 },
+  { "kode_produk": "a3", "nama_produk": "Wortel Organik", "harga": 4000, "stok": 0 },
+  { "kode_produk": "a4", "nama_produk": "Brokoli", "harga": 6000, "stok": 10 },
+  { "kode_produk": "a5", "nama_produk": "Sawi Putih", "harga": 3500, "stok": 5 },
+  { "kode_produk": "a6", "nama_produk": "Kangkung", "harga": 2500, "stok": 9 },
+  { "kode_produk": "a7", "nama_produk": "Paprika Merah", "harga": 7000, "stok": 0 },
+  { "kode_produk": "b1", "nama_produk": "Pisang Raja", "harga": 8000, "stok": 20 },
+  { "kode_produk": "b2", "nama_produk": "Apel Malang", "harga": 9000, "stok": 15 },
+  { "kode_produk": "b3", "nama_produk": "Jeruk Lokal", "harga": 8500, "stok": 0 },
+  { "kode_produk": "b4", "nama_produk": "Mangga Harum", "harga": 10000, "stok": 7 },
+  { "kode_produk": "b5", "nama_produk": "Semangka", "harga": 12000, "stok": 3 },
+  { "kode_produk": "b6", "nama_produk": "Melon Hijau", "harga": 11000, "stok": 6 },
+  { "kode_produk": "b7", "nama_produk": "Pepaya California", "harga": 9500, "stok": 4 },
+  { "kode_produk": "b8", "nama_produk": "Anggur Merah", "harga": 13000, "stok": 0 }
+]

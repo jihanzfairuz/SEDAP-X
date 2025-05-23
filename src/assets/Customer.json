@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Andi Pratama",
+      "email": "andi@mail.com",
+      "phone": "0812-0000-0001",
+      "loyalty": "Gold"
+    },
+    {
+      "id": 2,
+      "name": "Budi Santoso",
+      "email": "budi@mail.com",
+      "phone": "0812-0000-0002",
+      "loyalty": "Silver"
+    },
+    {
+      "id": 3,
+      "name": "Citra Dewi",
+      "email": "citra@mail.com",
+      "phone": "0812-0000-0003",
+      "loyalty": "Bronze"
+    },
+    {
+      "id": 4,
+      "name": "Dedi Supriyanto",
+      "email": "dedi@mail.com",
+      "phone": "0812-0000-0004",
+      "loyalty": "Gold"
+    },
+    {
+      "id": 5,
+      "name": "Eliza Rahmawati",
+      "email": "eliza@mail.com",
+      "phone": "0812-0000-0005",
+      "loyalty": "Silver"
+    },
+    {
+      "id": 6,
+      "name": "Fajar Hidayat",
+      "email": "fajar@mail.com",
+      "phone": "0812-0000-0006",
+      "loyalty": "Bronze"
+    }
+  ]
+  

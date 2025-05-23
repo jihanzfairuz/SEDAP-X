@@ -1,0 +1,38 @@
+[
+  {
+    "nama": "Jihanz",
+    "posisi": "Pelanggan Puas",
+    "komentar": "Produk berkualitas tinggi dan pengiriman sangat cepat!",
+    "avatar": "/img/jihanz.jpg"
+  },
+  {
+    "nama": "Tung Tung Sahur",
+    "posisi": "Pembeli Terverifikasi",
+    "komentar": "Saya suka kesegaran organik dan kemasannya yang menarik.",
+    "avatar": "https://i.pinimg.com/736x/09/c5/bf/09c5bfc56e48d3fa98504bfc5ab9b91a.jpg"
+  },
+  {
+    "nama": "Tralalelo Tralala",
+    "posisi": "Pelanggan Setia",
+    "komentar": "Sangat saya rekomendasikan untuk pecinta makanan organik.",
+    "avatar": "https://i.pinimg.com/736x/64/19/14/6419142ec06716e09ad6f83b200d4567.jpg"
+  },
+  {
+    "nama": "capuchino asasino",
+    "posisi": "Pelanggan Setia",
+    "komentar": "Pelayanan ramah dan produknya selalu segar.",
+    "avatar": "https://i.pinimg.com/736x/1c/a7/bc/1ca7bc421bac91606ccfd920dce61fd3.jpg"
+  },
+  {
+    "nama": "ballerina cappuchina",
+    "posisi": "Pembeli Baru",
+    "komentar": "Harga terjangkau dengan kualitas yang memuaskan.",
+    "avatar": "https://i.pinimg.com/736x/72/80/c0/7280c0801a695e80fb73d448c92daa77.jpg"
+  },
+  {
+    "nama": "BOMBADINO CROCODILLO",
+    "posisi": "Pelanggan Tetap",
+    "komentar": "Pengiriman cepat dan kemasan sangat rapi.",
+    "avatar": "https://i.pinimg.com/736x/89/31/2f/89312f1d98819e994161165d7db852b3.jpg"
+  }
+]
