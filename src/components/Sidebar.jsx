@@ -1,8 +1,16 @@
 import { RiCustomerService2Line } from "react-icons/ri"; 
-import { MdReorder } from "react-icons/md"; 
+import { MdReorder, MdFastfood } from "react-icons/md"; 
 import { RiDashboardFill } from "react-icons/ri"; 
 import { FaUser } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
+const menuClass = ({ isActive }) =>
+  `flex items-center gap-2 p-3 rounded-xl
+    ${
+      isActive
+        ? "bg-green-200 text-hijau font-bold"
+        : "text-gray-600 hover:bg-green-200 hover:text-hijau"
+    }`;
 
 export default function Sidebar() {
   return (
@@ -20,37 +28,46 @@ export default function Sidebar() {
       {/* Main Menu */}
       <ul className="space-y-2">
         <li>
-          <Link to="/" className="flex items-center gap-2 p-3 hover:bg-green-200 rounded-xl text-gray-600 font-medium">
+          <NavLink to="/" className={menuClass}>
             <RiDashboardFill /> Dashboard
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/orders" className="flex items-center gap-2 p-3 hover:bg-green-200 rounded-xl text-gray-600 font-medium">
+          <NavLink to="/orders" className={menuClass}>
             <MdReorder /> Order List
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/customers" className="flex items-center gap-2 p-3 hover:bg-green-200 rounded-xl text-gray-600 font-medium">
+          <NavLink to="/customers" className={menuClass}>
             <RiCustomerService2Line /> Customer
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/users" className="flex items-center gap-2 p-3 hover:bg-green-200 rounded-xl text-gray-600 font-medium">
+          <NavLink to="/users" className={menuClass}>
             <FaUser /> User
-          </Link>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/products" className={menuClass}>
+            <MdFastfood /> Products
+          </NavLink>
         </li>
       </ul>
-
-      
 
       {/* Footer */}
       <div className="mt-auto">
         <div className="bg-green-500 px-4 py-3 rounded-md shadow-lg mb-6 text-white text-sm flex justify-between items-center">
           <div>
             <p>Please organize your menus through button below!</p>
-            <button className="mt-2 bg-white text-green-700 font-semibold px-3 py-1 rounded-md">Add Menus</button>
+            <button className="mt-2 bg-white text-green-700 font-semibold px-3 py-1 rounded-md">
+              Add Menus
+            </button>
           </div>
-          <img className="w-16 h-16 rounded-full" src="https://avatar.iran.liara.run/public/28" alt="avatar" />
+          <img
+            className="w-16 h-16 rounded-full"
+            src="https://avatar.iran.liara.run/public/28"
+            alt="avatar"
+          />
         </div>
         <div className="text-gray-400 text-xs font-light">
           <div className="font-bold">Sedap Restaurant Admin Dashboard</div>

@@ -1,11 +1,11 @@
 import { RiCustomerServiceFill } from "react-icons/ri"; 
-import { BiUser, BiBox, BiAlignLeft } from "react-icons/bi";
-import { AiFillDashboard, AiOutlineUser } from "react-icons/ai";
-import { MdDashboard } from "react-icons/md";
-import { Link, NavLink } from "react-router-dom";
+import { BiAlignLeft } from "react-icons/bi";
+import { AiOutlineUser } from "react-icons/ai";
+import { MdDashboard, MdFastfood } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 const menuClass = ({ isActive }) =>
-  `flex cursor-pointer items-center rounded-xl p-4  space-x-2
+  `flex cursor-pointer items-center rounded-xl p-4 space-x-2
     ${
       isActive
         ? "text-hijau bg-green-200 font-extrabold"
@@ -30,7 +30,7 @@ export default function ListMenu() {
         </li>
         <li>
           <NavLink to="/customers" id="menu-3" className={menuClass}>
-          <RiCustomerServiceFill className="mr-4 text-xl" />
+            <RiCustomerServiceFill className="mr-4 text-xl" />
             <span>Customer</span>
           </NavLink>
         </li>
@@ -40,7 +40,12 @@ export default function ListMenu() {
             <span>User</span>
           </NavLink>
         </li>
-        
+        <li>
+          <NavLink to="/products" id="menu-5" className={menuClass}>
+            <MdFastfood className="mr-4 text-xl" />
+            <span>Products</span>
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

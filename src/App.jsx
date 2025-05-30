@@ -14,6 +14,8 @@ const Register = React.lazy(() => import("./pages/Auth/Register"));
 const Forgot = React.lazy(() => import("./pages/Auth/Forgot"));
 const User = React.lazy(() => import("./pages/User"));
 const ErrorPage = React.lazy(() => import("./pages/ErrorPage"));
+const Products = React.lazy(() => import("./pages/Products"));
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 
 // Tambahan Guest
 const GuestLayout = React.lazy(() => import("./layouts/GuestLayout"));
@@ -29,6 +31,8 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/users" element={<User />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} />
         </Route>
 
         {/* Layout autentikasi */}
